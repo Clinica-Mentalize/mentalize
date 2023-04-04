@@ -152,11 +152,6 @@ a:focus {
   padding: 0px 0px 15px 0px;
 }
 
-.header_section .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
@@ -213,7 +208,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: var(--rosaMedio);
+  background-color: var(--rosaClaro);
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -228,7 +223,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--rosaMedio);
+  background-color: var(--rosaClaro);
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -944,19 +939,29 @@ a:focus {
 
 .container-navbar {
   background-color: var(--rosaEscuro);
-  padding-left: 40px !important;
-  padding-right: 40px !important;
   height: 60px;
+  padding-left: 0px !important;
+}
+
+.a-titulo {
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  margin-right: 3vw;
 }
 
 .navbar {
   padding-top: 6px !important;
+  background-color: var(--rosaEscuro);
+  transition-duration: 2s;
+  max-height: 54px;
 }
 
 .nav-link:hover {
   border-radius: 5px;
   background-color: var(--rosaClaro);
-  transition-duration: 0.6s;
+  transition-duration: 0.7s;
 }
 
 .nav-item {
@@ -967,7 +972,7 @@ a:focus {
 /*----header----*/
 
 .p-titulo {
-  color: var(--rosaClaro);
+  color: white;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
 }
 

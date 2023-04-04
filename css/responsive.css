@@ -80,6 +80,27 @@
 
 /*---------------------------------------------------------------------*/
 
+/*----NavBar----*/
+
+@media (max-width: 991px) {
+  .navbar {
+    padding-top: 6px !important;
+    background-color: var(--rosaEscuro);
+    width: 103.2%;
+    transition-duration: 2s;
+    max-height: 54px;
+  }
+
+  .navbar-nav {
+    padding-top: 30px !important;
+    background-color: var(--rosaEscuro);
+  }
+
+  .ultimo-link {
+    margin-bottom: 40px;
+  }
+}
+
 
 /*----Logo----*/
 
