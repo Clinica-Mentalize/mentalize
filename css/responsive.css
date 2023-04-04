@@ -83,15 +83,27 @@
 
 /*----Logo----*/
 
+@media (min-width: 992px) {
+  .container {
+      max-width: 1034px;
+  }
+}
+
+@media (max-width: 988px) {
+  .hero_area {
+      min-height: 74vh;
+  }
+}
 @media (min-width: 1200px) {
   .img-logo {
-    margin-bottom: -240px;
+    width: 400px !important;
+    margin-bottom: 0px;
     margin-left: 191px !important;
   }
 
-  div#text-inicio {
+  span#text-inicio {
     width: 430px;
-    margin-left: 100px
+    margin-right: -100px !important;
   }
 
   .about_section {
@@ -107,11 +119,37 @@
 }
 
 @media (min-width:992px) {
-  .img-logo {
-    margin-top: px;
+
+  span#text-inicio {
+    display: block;
+    max-width: 412px !important;
   }
 }
 
+@media (min-width: 905px) {
+  span#text-inicio {
+    max-width: 300px;
+  }
+}
+
+
+@media (max-width: 706px) {
+  .container {
+      max-width: 700px;
+  }
+}
+
+@media (max-width: 906px) {
+  .div-logo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  span#text-inicio {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
 
 /*----Especialidades----*/
 

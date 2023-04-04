@@ -101,7 +101,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  min-height: 92vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +149,7 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 0px 0px 15px 0px;
 }
 
 .header_section .container-fluid {
@@ -174,7 +174,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: var(--rosaEscuro);
+  color: white;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -182,6 +182,9 @@ a:focus {
   transition: all 0.3s;
 }
 
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover {
+  color: var(--rosaEscuro);
+}
 .custom_nav-container .nav_search-btn {
   width: 35px;
   height: 35px;
@@ -939,10 +942,25 @@ a:focus {
 
 /*----NavBar----*/
 
-.nav-item:hover {
+.container-navbar {
+  background-color: var(--rosaEscuro);
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  height: 60px;
+}
+
+.navbar {
+  padding-top: 6px !important;
+}
+
+.nav-link:hover {
   border-radius: 5px;
   background-color: var(--rosaClaro);
   transition-duration: 0.6s;
+}
+
+.nav-item {
+  color: white;
 }
 
 
@@ -954,12 +972,14 @@ a:focus {
 }
 
 .destaque {
-  color: var(--rosaEscuro) !important;
+  color:  var(--rosaClaro) !important;
 }
 
+.div-logo {
+  margin-top: 30px;
+}
 
-div#text-inicio {
-  max-width: 600px;
+span#text-inicio {
   margin: auto;
   text-align: justify;
 }
