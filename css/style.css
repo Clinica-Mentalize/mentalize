@@ -1015,6 +1015,13 @@ img#img-especialidades-2 {
   margin-top: 23px;
 }
 
+.receituario-img {
+  width: 90px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 2px solid var(--rosaEscuro);
+}
+
 .btn-option-agendar-consulta {
   margin-bottom: 7px;
 }
