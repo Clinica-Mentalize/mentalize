@@ -1018,3 +1018,27 @@ img#img-especialidades-2 {
 .btn-option-agendar-consulta {
   margin-bottom: 7px;
 }
+
+
+/*----Artigos----*/
+
+.artigos-section {
+  height: 300px;
+  background-color: var(--rosaClaro);
+}
+
+.h2-artigos {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.artigos-text {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.artigos-text > a {
+  text-decoration: underline;
+}
