@@ -1049,3 +1049,33 @@ img#img-especialidades-2 {
 .artigos-text > a {
   text-decoration: underline;
 }
+
+
+/*----Botão Whatsapp----*/
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--rosaMedio);
+  color: var(--whiteS);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 0px 2px var(--rosaClaro);
+  z-index: 1000;
+}
+
+.whatsapp-link:visited {
+  color: var(--whiteS);
+}
+
+.whatsapp-link:hover {
+  color: var(--rosaClaro);
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
