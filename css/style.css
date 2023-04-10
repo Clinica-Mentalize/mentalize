@@ -1046,8 +1046,25 @@ img#img-especialidades-2 {
   font-size: 1.2em;
 }
 
-.artigos-text > a {
-  text-decoration: underline;
+.artigos-text >  a {
+  padding: 3px 15px;
+  background-color: var(--rosaMedio);
+  color: #ffffff;
+  border-radius: 5px;
+  
+  border: 1px solid var(--rosaMedio);
+}
+
+.artigos-text > a:hover {
+  color: var(--rosaEscuro) !important;
+  background-color: transparent;
+  transition: all 0.3s;
+  border: 1px solid var(--rosaEscuro);
+}
+
+.artigos-text >  a:hover {
+  color: rgb(255, 255, 255);
+
 }
 
 
@@ -1074,6 +1091,8 @@ img#img-especialidades-2 {
 
 .whatsapp-link:hover {
   color: var(--rosaClaro);
+  scale: 1.02;
+  transition-duration: 0.3s;
 }
 
 .fa-whatsapp {
